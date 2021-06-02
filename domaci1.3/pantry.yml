@@ -1,0 +1,10 @@
+apiVersion: batch/v1 
+kind: Job 
+metadata:
+  name: pantry
+spec: 
+  template: 
+    spec:
+      containers:
+      - name: pantry
+        image: domaci1
